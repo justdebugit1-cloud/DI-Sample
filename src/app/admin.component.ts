@@ -4,6 +4,7 @@ import { CounterService } from './counter.service';
 @Component({
   selector: 'app-admin',
   templateUrl: './admin.component.html',
+    providers: [CounterService]
 })
 export class AdminComponent {
   constructor( private counterService: CounterService ) {}
