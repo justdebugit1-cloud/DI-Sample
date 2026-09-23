@@ -4,10 +4,6 @@ import { Injectable } from '@angular/core';
   providedIn: 'root',
 })
 export class CounterService {
-  count = 0;
   id = Math.random();
 
-  increment(): void {
-    this.count++;
-  }
 }
